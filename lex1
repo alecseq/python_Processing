@@ -1,0 +1,17 @@
+def setup () :
+    size(600,600)
+
+def draw () :
+    if key == ('1'):
+        stroke("#E3698A")
+        
+    if key == ('2'):
+        fill("#DC69E3")
+         
+    if key == ('3'):
+        fill("#69E395")
+        
+    if key == ('4'):
+        fill("#69E0E3")
+        
+    line(mouseX,mouseY,pmouseX,pmouseY)
